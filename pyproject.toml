@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "beer-color-prediction"
+version = "0.1.0"
+description = ""
+authors = ["canutera <67880597+canutera@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+pandas = "^2.1.1"
+scikit-learn = "^1.3.1"
+lxml = "^4.9.3"
+jinja2 = "^3.1.2"
+lightgbm = "^4.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
